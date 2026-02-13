@@ -34,6 +34,8 @@ export default defineNuxtConfig({
   },
 
   routeRules: {
-    "/": { ssr: false, prerender: true },
+    "/": { prerender: true },
+    "/privacy-policy": { prerender: true },
+    "/refund-returns": { prerender: true },
   },
 });
