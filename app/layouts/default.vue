@@ -130,7 +130,9 @@
     <v-main>
       <slot />
     </v-main>
+
     <WhatsappHelpDesk />
+    <ScrollToTop />
     <BulkAppFooter />
   </v-app>
 </template>
